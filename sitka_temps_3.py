@@ -34,7 +34,7 @@ for row in csv_file:
     the_date = datetime.strptime(row[2], '%Y-%m-%d')
     dates.append(the_date)
 
-# print(lows)
+#print(lows)
 
 # Plot highs and dates on a chart
 import matplotlib.pyplot as plt
